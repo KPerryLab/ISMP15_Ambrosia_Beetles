@@ -9,7 +9,7 @@ ggplot(data=bolts, mapping=aes(x=Temp, y=Recorded, col=F.NF))+
   geom_smooth(se=FALSE)+
   labs(x="Oven Temperature (°C)",
        y="Temp. Inside Bolt (°C)")+
-  scale_color_discrete(name="Group", labels=c("No Fungi","Fungi"))+
+  scale_color_manual(values=c("#00B6EB", "#F8766D"), name="Group", labels=c("Fungi","No Fungi"))+
   theme_minimal()+
   theme(axis.text=element_text(size=12))+theme(axis.title=element_text(size=13))
 dev.off()
