@@ -19,10 +19,10 @@ pdf(file="C:/Users/jessi/OneDrive - The Ohio State University/Ambrosia 2024-2025
 
 ggplot(fungi.temp, aes(x=Species, y=Temp.ave, fill=Area))+ 
   geom_boxplot()+
+  geom_point(position = position_jitterdodge(), shape=21)+
   labs(x="Species",
        y="Average Temperature (°C)",
        fill="Area of Plate")+
-  geom_jitter(shape=21, width=0.2, height=0.1)+
   theme_minimal()+
   theme(axis.text=element_text(size=12))+theme(axis.title=element_text(size=13))
 dev.off()
