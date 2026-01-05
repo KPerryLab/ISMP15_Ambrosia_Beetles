@@ -1,6 +1,6 @@
 
-bolts<-read.table(file="C:/Users/jessi/OneDrive - The Ohio State University/Ambrosia 2024-2025/Fungi/Fungibolts.csv", header=TRUE, sep=",")
-fungi.temp<-read.table(file="C:/Users/jessi/OneDrive - The Ohio State University/Ambrosia 2024-2025/Fungi/FungalAnalysis.csv", header=TRUE, sep=",")
+bolts<-read.table(file="C:/Users/jessi/OneDrive - The Ohio State University/Ambrosia 2024-2025/Fungi/Spreadsheets_for_analysis/Fungibolts.csv", header=TRUE, sep=",")
+fungi.temp<-read.table(file="C:/Users/jessi/OneDrive - The Ohio State University/Ambrosia 2024-2025/Fungi/Spreadsheets_for_analysis/FungalAnalysis.csv", header=TRUE, sep=",")
 
 pdf(file="C:/Users/jessi/OneDrive - The Ohio State University/Ambrosia 2024-2025/ISMP15_Ambrosia_Beetles/FungalBoltsGraphESA.pdf", width=7, height=5)
 
